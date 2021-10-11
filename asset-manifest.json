@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/censcaff/static/css/main.90a2d0d2.chunk.css",
+    "main.js": "/censcaff/static/js/main.f527df8d.chunk.js",
+    "main.js.map": "/censcaff/static/js/main.f527df8d.chunk.js.map",
+    "runtime-main.js": "/censcaff/static/js/runtime-main.63904635.js",
+    "runtime-main.js.map": "/censcaff/static/js/runtime-main.63904635.js.map",
+    "static/js/2.8ff4abd8.chunk.js": "/censcaff/static/js/2.8ff4abd8.chunk.js",
+    "static/js/2.8ff4abd8.chunk.js.map": "/censcaff/static/js/2.8ff4abd8.chunk.js.map",
+    "index.html": "/censcaff/index.html",
+    "static/css/main.90a2d0d2.chunk.css.map": "/censcaff/static/css/main.90a2d0d2.chunk.css.map",
+    "static/js/2.8ff4abd8.chunk.js.LICENSE.txt": "/censcaff/static/js/2.8ff4abd8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.63904635.js",
+    "static/js/2.8ff4abd8.chunk.js",
+    "static/css/main.90a2d0d2.chunk.css",
+    "static/js/main.f527df8d.chunk.js"
+  ]
+}
