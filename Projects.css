@@ -1,0 +1,45 @@
+.Project_pic {
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+}
+.Project_img {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 5rem auto;
+  display: grid;
+  gap: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .Project_img {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.Project_title {
+  text-align: center;
+  color: #f7c02d;
+}
+.Projects {
+  color: #fff;
+  padding: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .Project_pic {
+    height: 80px;
+    width: 50px;
+    border-radius: 12px;
+  }
+  .Project_img {
+    width: 90vw;
+    max-width: 150px;
+
+    display: grid;
+
+    gap: 2rem;
+  }
+  @media screen and (min-width: 468px) {
+    .Project_img {
+      grid-template-columns: repeat(3, 3fr);
+    }
+  }
+}

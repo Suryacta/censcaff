@@ -1,0 +1,39 @@
+.Farm_contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: -350px;
+  padding: 30px;
+  background-color: #fff;
+  align-items: flex-end;
+}
+.farm-control {
+  width: 400px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #040404;
+  color: #848484;
+}
+.farm-control:hover {
+  color: #fff;
+}
+.Farm {
+  background-color: black;
+}
+.Quick {
+  color: #040404;
+  margin-right: 130px;
+  font-size: 1.7rem;
+}
+.btn {
+  margin-right: 150px;
+}
+.btn-info {
+  font-weight: 600;
+}
+.btn-info:hover {
+  color: #f7c02d;
+  background-color: #040404;
+}

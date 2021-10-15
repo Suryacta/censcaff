@@ -1,0 +1,25 @@
+.Bottom {
+  display: flex;
+  flex-direction: row;
+  background-color: #040404;
+  color: #858585;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 20px;
+  height: 400px;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .Bottom {
+    display: flex;
+    flex-direction: row;
+    background-color: #040404;
+    color: #858585;
+
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 10px;
+    margin: 10%;
+  }
+}

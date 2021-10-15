@@ -1,0 +1,11 @@
+.headnav {
+  height: 30px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  transition-timing-function: ease-in;
+  transition: 0.5s;
+}
+.headnav_hide {
+  background-color: #f7c02d;
+}

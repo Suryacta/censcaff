@@ -1,0 +1,18 @@
+.naavbar {
+  width: 100%;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  transition: top 0.6s;
+  height: 20px;
+  background-color: #040404;
+  z-index: 999;
+  color: #f7c02d;
+}
+.home {
+  color: #f7c02d;
+  size: 2x;
+}
+.naavbar--hidden {
+  top: -50px;
+}

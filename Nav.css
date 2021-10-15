@@ -1,0 +1,140 @@
+.Nav {
+  position: fixed;
+  top: 0;
+  padding: 20px;
+  width: 100%;
+  height: 70px;
+  z-index: 1;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+  color: #848484;
+}
+
+.Nav_contents {
+  display: flex;
+  justify-content: space-between;
+}
+.Nav_yellow {
+  opacity: 0;
+}
+.Nav_logo {
+  position: fixed;
+  top: 0;
+  left: 10%;
+  width: 197px;
+  height: 67px;
+
+  object-fit: contain;
+  padding-top: 48px;
+  cursor: pointer;
+}
+.Nav_pages {
+  cursor: pointer;
+  position: fixed;
+  right: 90px;
+  width: 794px;
+  height: 51px;
+  font-weight: 800;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  color: #848484;
+  font: 15px;
+  padding-top: 48px;
+}
+.Nav_icons {
+  position: fixed;
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+  top: 5px;
+  width: 140px;
+  left: 0;
+  font-weight: 800;
+  object-fit: contain;
+  padding: 20px;
+  cursor: pointer;
+}
+.smoothscroll:hover {
+  color: #f7c02d;
+}
+.Nav_icons :hover {
+  color: #f7c02d;
+}
+.smoothscroll {
+  text-decoration: none;
+  color: #848484;
+}
+.dropdown {
+  margin-left: -180px;
+}
+
+.drop {
+  padding: 8px;
+
+  height: 150px;
+  width: 170px;
+  list-style: none;
+}
+.drop:hover {
+  color: #fff;
+}
+.nav-link {
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 768px) {
+  .Nav {
+    position: fixed;
+    top: 0;
+    padding: 10px;
+    width: 100%;
+    height: 6%;
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+    color: #fff;
+  }
+  .Nav_logo {
+    position: fixed;
+    top: 0px;
+    right: 20px;
+    width: 25%;
+    padding: 2%;
+    cursor: pointer;
+  }
+  .Nav_contents {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .Nav_pages {
+    cursor: pointer;
+    position: fixed;
+    right: 35%;
+
+    width: 10%;
+    height: 30px;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    color: #fff;
+    font-size: 0.6rem;
+    gap: 7px;
+  }
+  .Nav_icons {
+    position: fixed;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    top: 3px;
+    width: 50px;
+    left: 0;
+    font-weight: 800;
+    object-fit: contain;
+    gap: 0.4rem;
+    cursor: pointer;
+  }
+}

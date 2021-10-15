@@ -1,0 +1,64 @@
+.Co_contents {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Co_head {
+  text-align: center;
+  color: #f7c02d;
+  margin-bottom: 20px;
+}
+.Contacts {
+  background: linear-gradient(to top, rgb(70, 68, 68), black);
+}
+.Map {
+  border-radius: 30px;
+}
+.Co-elements {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 20px;
+  margin-right: 200px;
+  color: #fff;
+}
+.Co_title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 250px;
+}
+.Co_call-heading {
+  margin-right: 90px;
+}
+.Co_ourtiming-heading {
+  margin-right: 50px;
+}
+
+.Contacts {
+  padding: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .Co_contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5%;
+    width: 100%;
+  }
+  .Map {
+    width: 90%;
+    height: 400px;
+  }
+  .Co-elements {
+    width: 90%;
+    height: 350px;
+    margin: 9%;
+  }
+  .Co_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 250px;
+  }
+}
